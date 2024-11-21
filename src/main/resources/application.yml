@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: lokal-spring-boot
+
+logging:
+  level:
+    org.springframework.web.client.RestTemplate: debug
