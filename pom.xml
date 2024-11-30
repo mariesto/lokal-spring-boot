@@ -11,7 +11,7 @@
 
     <groupId>com.mariesto</groupId>
     <artifactId>lokal-spring-boot</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>lokal-spring-boot</name>
     <description>lokal-spring-boot</description>
 
@@ -42,23 +42,6 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
     <distributionManagement>
         <repository>

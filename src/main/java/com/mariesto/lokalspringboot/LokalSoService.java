@@ -29,7 +29,8 @@ public class LokalSoService {
     }
 
     public TunnelResponse startTunneling(TunnelConfig tunnelConfig) {
-        Map<String, Object> request = objectMapper.convertValue(tunnelConfig, new TypeReference<>() {});
+        Map<String, Object> request = objectMapper.convertValue(tunnelConfig, new TypeReference<>() {
+        });
         URI uri = URI.create("http://localhost:6174/api/tunnel/start");
 
         HttpHeaders headers = new HttpHeaders();
