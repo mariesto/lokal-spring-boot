@@ -63,8 +63,8 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>${artifactId}</name>
-            <url>https://maven.pkg.github.com/mariesto/${artifactId}</url>
+            <name>${project.artifactId}</name>
+            <url>https://maven.pkg.github.com/mariesto/${project.artifactId}</url>
         </repository>
     </distributionManagement>
 
